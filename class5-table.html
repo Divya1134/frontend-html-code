@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table 5</title>
+
+    <style>
+    Table,th,td{
+        border: 2px solid black ;
+        border-collapse: collapse;
+        padding: 10px;
+    }
+    </style>
+   
+</head>
+<body>
+    <h1>Below Table Shows Student Info</h1>
+    <hr/>
+
+    <table border="2">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>SUBJECT</th>
+                <th>TIMINGS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>John</td>
+                <td>Html</td>
+                <td>7 Am</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Bob</td>
+                <td>Java</td>
+                <td>9 Am</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Alice</td>
+                <td>DataScience</td>
+                <td>10 Am</td>
+            </tr>
+        </tbody>
+    </table>
+    <br/>
+
+    
+    <!-------------------------COLSPAN---------------------------->
+    <table border="2">
+        <thead>
+            <tr>
+                <th>EmpId</th>
+                <th colspan="3">EmpName</th>
+                <th>Designation</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>FirstName</th>
+                <th>MiddleName</th>
+                <th>LastName</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>200</td>
+                <td>John</td>
+                <td>M</td>
+                <td>Smith</td>
+                <td>HR</td>
+            </tr>
+            <tr>
+                <td>201</td>
+                <td>Bob</td>
+                <td>H</td>
+                <td>Ali</td>
+                <td>Developer</td>
+            </tr>
+        </tbody>
+    </table>
+    <br/>
+
+
+    <!-------------------------ROWSPAN----------------------------->
+    <table border="2">
+        <tr>
+            <th>Name</th>
+            <td>Divya</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Phone Number</th>
+            <td>1234567898</td>
+        </tr>
+        <tr>
+            <td>9876543219</td>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td>Bangalore</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
